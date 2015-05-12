@@ -19,6 +19,13 @@ Gravatar для 1C-Bitrix
   }
 ```
 
+Подключите composer автолоадер
+``` php
+// init.php
+
+require_once $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
+```
+
 ## Пример использования
 
 ``` php

@@ -1,21 +1,29 @@
 {
-    "name": "citfact/gravatar",
-    "type": "bitrix-module",
-    "description": "Gravatar for 1C-Bitrix",
-    "keywords": ["gravatar", "1C-Bitrix"],
-    "homepage": "https://github.com/studiofact/citfact.gravatar",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Kulichkin Denis",
-            "email": "onexhovia@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "composer/installers": "~1.0"
-    },
-    "extra": {
-        "installer-name": "citfact.gravatar"
+  "name": "citfact/gravatar",
+  "type": "bitrix-module",
+  "description": "Gravatar for 1C-Bitrix",
+  "keywords": [
+    "gravatar",
+    "1C-Bitrix"
+  ],
+  "homepage": "https://github.com/studiofact/citfact.gravatar",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kulichkin Denis",
+      "email": "onexhovia@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "composer/installers": "~1.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Citfact\\Gravatar\\": "lib/"
+    }
+  },
+  "extra": {
+    "installer-name": "citfact.gravatar"
+  }
 }

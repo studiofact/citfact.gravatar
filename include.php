@@ -12,5 +12,5 @@
 use Bitrix\Main\Loader;
 
 Loader::registerAutoLoadClasses('citfact.gravatar', array(
-    'Citfact\Gravatar\Gravatar' => 'lib/Gravatar.php',
+    'Citfact\Gravatar\Gravatar' => 'lib/Gravatar/Gravatar.php',
 ));
